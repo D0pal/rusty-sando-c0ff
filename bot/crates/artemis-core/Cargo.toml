@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 
 ## eth
-ethers = { git = "https://github.com/D0pal/ethers-rs.git" , features = ["ws", "rustls"]}
+ethers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623" , features = ["ws", "rustls"]}
 ethers-flashbots = { git = "https://github.com/D0pal/ethers-flashbots.git", features = ["rustls"] }
 
 ## async

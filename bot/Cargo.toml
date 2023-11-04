@@ -4,3 +4,4 @@ members = [
     "crates/strategy",
     "sando-bin"
 ]
+resolver = "2"

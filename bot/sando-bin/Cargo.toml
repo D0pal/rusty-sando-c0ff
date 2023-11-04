@@ -26,9 +26,9 @@ futures = "0.3.5"
 
 # EVM based crates
 cfmms = "0.6.2"
-ethers-flashbots = { git = "https://github.com/onbjerg/ethers-flashbots" }
-ethers = {version = "2.0.7", features = ["abigen", "ws"]}
-revm = "3.3.0"
+ethers-flashbots = { git = "https://github.com/D0pal/ethers-flashbots.git" }
+ethers = { git = "https://github.com/gakonst/ethers-rs.git", rev = "7b7c623", features = ["abigen", "ws"]}
+revm = { git = "https://github.com/bluealloy/revm.git", rev = "ac5c748"}
 
 # logging
 indoc = "2"

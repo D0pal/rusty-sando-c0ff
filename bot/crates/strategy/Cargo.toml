@@ -17,7 +17,7 @@ serde = "1.0.145"
 # EVM based crates
 cfmms = { git = "https://github.com/D0pal/cfmms-rs.git"}
 ethers-flashbots = { git = "https://github.com/D0pal/ethers-flashbots.git"}
-ethers = { git = "https://github.com/D0pal/ethers-rs.git", features = ["abigen", "ws"]}
+ethers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623", features = ["abigen", "ws"]}
 foundry-evm = { git = "https://github.com/D0pal/foundry.git" ,rev="538a703" } 
 anvil = { git = "https://github.com/D0pal/foundry.git"  ,rev="538a703" }
 eth-encode-packed = "0.1.0"

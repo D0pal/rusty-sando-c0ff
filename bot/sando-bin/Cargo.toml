@@ -25,9 +25,9 @@ thiserror = "1.0.37"
 futures = "0.3.5"
 
 # EVM based crates
-cfmms = "0.6.2"
+cfmms = { git = "https://github.com/D0pal/cfmms-rs.git"}
 ethers-flashbots = { git = "https://github.com/D0pal/ethers-flashbots.git" }
-ethers = { git = "https://github.com/D0pal/ethers-rs.git", features = ["abigen", "ws"]}
+ethers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623", features = ["abigen", "ws"]}
 revm = { git = "https://github.com/bluealloy/revm.git", rev = "ac5c748"}
 
 # logging
